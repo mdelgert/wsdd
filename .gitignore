@@ -1,0 +1,5 @@
+# Ignore virtual virtualenv
+env/
+
+# Ignore Pyinstaller
+src/build

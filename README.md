@@ -1,3 +1,20 @@
+# Environment setup
+```bash
+sudo apt install python3 python3-pip python3-venv
+python3 -m pip install --user virtualenv
+python3 -m venv env
+source env/bin/activate
+```
+
+# Pyinstaller
+```bash
+pip install pyinstaller
+cd src
+pyinstaller -F wsdd.py
+cd ..
+pip3 freeze > requirements.txt
+```
+
 # wsdd
 
 wsdd implements a Web Service Discovery host daemon. This enables (Samba)
