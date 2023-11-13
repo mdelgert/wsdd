@@ -1,4 +1,4 @@
-# Install
+# RPI4 install
 ```bash
 cd /usr/bin
 sudo wget https://github.com/mdelgert/wsdd/raw/master/src/dist/wsdd
