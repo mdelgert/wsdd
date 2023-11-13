@@ -1,3 +1,12 @@
+# Install
+```bash
+cd /usr/bin
+sudo wget https://github.com/mdelgert/wsdd/raw/master/src/dist/wsdd
+sudo chmod +x wsdd
+sudo nano /etc/rc.local
+wsdd & #Add this line
+```
+
 # Environment setup
 ```bash
 sudo apt install python3 python3-pip python3-venv
